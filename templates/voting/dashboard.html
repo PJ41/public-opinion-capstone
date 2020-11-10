@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DashBoard</title>
+</head>
+<body>
+
+{% for post in posts %}
+<hr>
+<div class="card my-4">
+    <div class="card-body">
+        <h5 class="card-title">Title: {{ post.header }}</h5>
+        <p class="card-text">Submitted on: {{ post.date_published }}</p>
+        <p class="card-text">{{ post.body }}</p>
+    </div>
+</div>
+<hr>
+{% endfor %}
+
+</body>
+</html>
