@@ -21,6 +21,8 @@
             <h5 class="card-title">Title: {{ post.header }}</h5>
             <p class="card-text">Submitted on: {{ post.date_published }}</p>
             <p class="card-text">{{ post.body }}</p>
+            <p class="card-text">Total agreement count:{{ post.up_count}}</p>
+            <p class="card-text">Total disagreement count:{{ post.down_count}}</p>
             <button><a href="{% url 'voteUp' post.header %}">Vote up</a></button>
             <button><a href="{% url 'voteDown' post.header %}">Vote down</a></button>
 

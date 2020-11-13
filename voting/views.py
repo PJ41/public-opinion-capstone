@@ -16,6 +16,7 @@ def dashboard(request):
 def voteUp(request, post_name):
     posts = Post.objects.all()
     post = posts.get(header=post_name)
+    post.up_count = post.up_count + 1
     post.count = post.count + 1
     post.save()
 
@@ -24,8 +25,12 @@ def voteUp(request, post_name):
 def voteDown(request, post_name=None):
     posts = Post.objects.all()
     post = posts.get(header=post_name)
+    """
     if post.count != 0:
         post.count = post.count - 1
+    """
+    post.down_count = post.down_count + 1
+    post.count = post.count + 1
     post.save()
 
     return HttpResponseRedirect(reverse('dashboard', kwargs={}))

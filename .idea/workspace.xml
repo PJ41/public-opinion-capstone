@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b7b42e2-54a1-453b-99f6-44de5e0bcf2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advocator/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/advocator/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/voting/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/voting/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/voting/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/voting/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/voting/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/voting/views.py" afterDir="false" />
@@ -19,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voting/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="660">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -43,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/voting/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="891">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -139,8 +137,8 @@
         <option value="$PROJECT_DIR$/templates/voting/create_post.html" />
         <option value="$PROJECT_DIR$/voting/admin.py" />
         <option value="$PROJECT_DIR$/templates/voting/createPost.html" />
-        <option value="$PROJECT_DIR$/voting/models.py" />
         <option value="$PROJECT_DIR$/advocator/urls.py" />
+        <option value="$PROJECT_DIR$/voting/models.py" />
         <option value="$PROJECT_DIR$/voting/views.py" />
         <option value="$PROJECT_DIR$/templates/voting/dashboard.html" />
       </list>
@@ -235,12 +233,12 @@
       <workItem from="1604974994536" duration="40000" />
       <workItem from="1605044281813" duration="6452000" />
       <workItem from="1605154479723" duration="292000" />
-      <workItem from="1605231690189" duration="18177000" />
+      <workItem from="1605231690189" duration="19229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25423000" />
+    <option name="totallyTimeSpent" value="26475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3266" height="2106" extended-state="6" />
@@ -355,6 +353,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/voting/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/voting/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -365,20 +373,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/voting/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/voting/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="891">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

@@ -7,6 +7,8 @@ class Post(models.Model):
     body = models.TextField(max_length=250, default='')
     # post_submitter_name = models.CharField(max_length=100)  # name os student who posted post
     # post_submitter_username = models.CharField(max_length=10)  # username of person who submitted Post
+    up_count = models.FloatField(max_length=1000, default=0)
+    down_count = models.FloatField(max_length=1000, default=0)
     count = models.FloatField(max_length=1000, default=0)
     date_published = models.DateTimeField(default=datetime.now, blank=True)
 
