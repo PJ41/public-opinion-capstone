@@ -21,7 +21,7 @@ app_name = "advocator"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('dashboard/', views.dashboard, name='dashboard'),
+    path('', views.dashboard, name='dashboard'),
     path('posts/create/', views.CreatePostView.as_view(), name='createPost'),
 
 ]
