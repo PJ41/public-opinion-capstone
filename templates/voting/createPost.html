@@ -13,10 +13,10 @@
         <form method="post">
             {% csrf_token %}
             <label for="header">Post Header:</label>
-            <input type="text" id="header" name="header" required><br><br>
+            <input type="text" id="header" name="header" style="width:100%" required><br><br>
 
             <label for="body">Description:</label>
-            <textarea form="body" id="body" name="body" rows="4" cols="20" required></textarea><br><br>
+            <textarea form="body" id="body" name="body" rows="4" cols="20" style="width:100%" required></textarea><br><br>
 
             <input type="submit" value="Post" class="btn btn-secondary">
         </form>

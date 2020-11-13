@@ -5,18 +5,26 @@
     <title>DashBoard</title>
 </head>
 <body>
+<div style="margin: 5%; margin-top:0%;">
+    <br>
+    <hr>
+    <h2>Dashboard</h2>
+    <p>To add a post visit: <a href="http://127.0.0.1:8000/posts/create/">Create Post</a></p>
+    <hr>
 
-{% for post in posts %}
-<hr>
-<div class="card my-4">
-    <div class="card-body">
-        <h5 class="card-title">Title: {{ post.header }}</h5>
-        <p class="card-text">Submitted on: {{ post.date_published }}</p>
-        <p class="card-text">{{ post.body }}</p>
+    {% for post in posts %}
+
+    <hr>
+    <div class="card my-4">
+        <div class="card-body">
+            <h5 class="card-title">Title: {{ post.header }}</h5>
+            <p class="card-text">Submitted on: {{ post.date_published }}</p>
+            <p class="card-text">{{ post.body }}</p>
+        </div>
     </div>
+    <hr>
+    {% endfor %}
 </div>
-<hr>
-{% endfor %}
 
 </body>
 </html>
