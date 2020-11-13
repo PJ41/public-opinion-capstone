@@ -23,5 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.dashboard, name='dashboard'),
     path('posts/create/', views.CreatePostView.as_view(), name='createPost'),
+    path('<post_name>/voteUp', views.voteUp, name='voteUp'),
+    path('<post_name>/voteDown', views.voteDown, name='voteDown'),
 
 ]
