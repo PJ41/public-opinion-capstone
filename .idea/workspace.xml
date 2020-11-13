@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b7b42e2-54a1-453b-99f6-44de5e0bcf2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/voting/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/voting/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voting/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/voting/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voting/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/voting/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advocator/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/advocator/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voting/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="693">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/voting/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="264">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -64,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/advocator/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2475">
-              <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+            <state relative-caret-position="1182">
+              <caret line="130" column="51" selection-start-line="130" selection-start-column="51" selection-end-line="130" selection-end-column="51" />
               <folding>
                 <element signature="e#309#323#0" expanded="true" />
               </folding>
@@ -132,15 +131,15 @@
       <list>
         <option value="$PROJECT_DIR$/advocator/voting/models.py" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/advocator/settings.py" />
         <option value="$PROJECT_DIR$/templates/voting/voting/create_post.html" />
         <option value="$PROJECT_DIR$/templates/voting/create_post.html" />
         <option value="$PROJECT_DIR$/voting/admin.py" />
         <option value="$PROJECT_DIR$/templates/voting/createPost.html" />
         <option value="$PROJECT_DIR$/advocator/urls.py" />
         <option value="$PROJECT_DIR$/voting/models.py" />
-        <option value="$PROJECT_DIR$/voting/views.py" />
         <option value="$PROJECT_DIR$/templates/voting/dashboard.html" />
+        <option value="$PROJECT_DIR$/voting/views.py" />
+        <option value="$PROJECT_DIR$/advocator/settings.py" />
       </list>
     </option>
   </component>
@@ -233,12 +232,12 @@
       <workItem from="1604974994536" duration="40000" />
       <workItem from="1605044281813" duration="6452000" />
       <workItem from="1605154479723" duration="292000" />
-      <workItem from="1605231690189" duration="19229000" />
+      <workItem from="1605231690189" duration="21035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26475000" />
+    <option name="totallyTimeSpent" value="28281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3266" height="2106" extended-state="6" />
@@ -302,9 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advocator/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/advocator/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -314,16 +310,6 @@
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advocator/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
-          <folding>
-            <element signature="e#309#323#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -363,22 +349,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/voting/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/voting/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="693">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/voting/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/advocator/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advocator/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="1182">
+          <caret line="130" column="51" selection-start-line="130" selection-start-column="51" selection-end-line="130" selection-end-column="51" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#309#323#0" expanded="true" />
           </folding>
         </state>
       </provider>
