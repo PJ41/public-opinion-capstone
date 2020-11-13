@@ -20,5 +20,5 @@ class CreatePostView(generic.CreateView):
     def form_valid(self, form):
         obj = form.save(commit=False)
         obj.save()
-        return HttpResponseRedirect(reverse('advocator:dashboard', None))
+        return HttpResponseRedirect(reverse('dashboard', kwargs={}))
 

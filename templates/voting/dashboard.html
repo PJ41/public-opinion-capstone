@@ -9,7 +9,7 @@
     <br>
     <hr>
     <h2>Dashboard</h2>
-    <p>To add a post visit: <a href="http://127.0.0.1:8000/posts/create/">Create Post</a></p>
+    <p>To add a post visit: <a href="{% url 'createPost' %}">Create Post</a></p>
     <hr>
 
     {% for post in posts %}
