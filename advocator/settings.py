@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 # import django_heroku
 import os
+import django-heroku
 
 from pathlib import Path
 
@@ -125,3 +126,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # django_heroku.settings(locals(), test_runner=False)
+
+django_heroku.settings(locals(), test_runner=False)
+
