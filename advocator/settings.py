@@ -22,11 +22,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 local = True
 
 # Default debug is false 
-env = environ.Env( 
-    DEBUG=(bool, False)
-)
 try:
     environ.Env.read_env(env.str('./..', '.env'))
+    env = environ.Env( 
+        DEBUG=(bool, False)
+    )
 except:
     local = False
 
@@ -41,7 +41,8 @@ else:
     SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env('DEBUG') 
+if local:
+    DEBUG = env('DEBUG') 
 
 ALLOWED_HOSTS = []
 
