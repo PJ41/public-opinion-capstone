@@ -25,7 +25,9 @@ SECRET_KEY = os.environ['SECRET_KEY']
 
 DEBUG = os.environ['DEBUG']
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'advocator-capstone.herokuapp.com',
+]
 
 
 # Application definition
