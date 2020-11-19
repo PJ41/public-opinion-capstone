@@ -19,21 +19,26 @@ from pathlib import Path
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+local = True
+
 # Default debug is false 
 env = environ.Env( 
     DEBUG=(bool, False)
 )
-try 
+try:
     environ.Env.read_env(env.str('./..', '.env'))
-except
-    continue
+except:
+    local = False
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['SECRET_KEY']
+if local:
+    SECRET_KEY = env('SECRET_KEY') 
+else:
+    SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG') 
