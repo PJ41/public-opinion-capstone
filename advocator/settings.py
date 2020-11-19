@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 # import django_heroku
-import environ
 import os
 
 from pathlib import Path
@@ -19,30 +18,12 @@ from pathlib import Path
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-local = True
-
-# Default debug is false 
-try:
-    environ.Env.read_env(env.str('./..', '.env'))
-    env = environ.Env( 
-        DEBUG=(bool, False)
-    )
-except:
-    local = False
-
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-if local:
-    SECRET_KEY = env('SECRET_KEY') 
-else:
-    SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = os.environ['SECRET_KEY']
 
-# SECURITY WARNING: don't run with debug turned on in production!
-if local:
-    DEBUG = env('DEBUG') 
+DEBUG = os.environ['DEBUG']
 
 ALLOWED_HOSTS = []
 
