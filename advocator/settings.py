@@ -17,6 +17,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
@@ -27,6 +28,7 @@ DEBUG = os.environ['DEBUG']
 
 ALLOWED_HOSTS = [
     'advocator-capstone.herokuapp.com',
+    '.localhost', '127.0.0.1', '[::1]',
 ]
 
 
